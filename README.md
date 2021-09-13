@@ -4,6 +4,7 @@ Queries used on [pzwd.net](https://pzwd.net/t/top-of-stackoverflow).
 
 ## List
 
+- [Most popular StackOverflow tags in 2Q 2020](results/most-popular-stackoverflow-tags-in-2q-2000.md)
 - [Most popular StackOverflow tags in 1Q 2020](results/most-popular-stackoverflow-tags-in-1q-2000.md)
 
 ## Contributing
