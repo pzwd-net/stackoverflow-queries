@@ -1,0 +1,25 @@
+{
+  "name": "stackoverflow-queries",
+  "version": "1.0.0",
+  "description": "Queries used on pzwd.net.",
+  "main": "index.js",
+  "scripts": {
+    "format-sql": "sh ./helpers/sql-formatter.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzwd-net/stackoverflow-queries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pzwd-net/stackoverflow-queries/issues"
+  },
+  "homepage": "https://github.com/pzwd-net/stackoverflow-queries#readme",
+  "devDependencies": {
+    "csv-to-markdown-table": "^1.1.0",
+    "sql-formatter": "^4.0.2"
+  }
+}
