@@ -2,7 +2,7 @@
 
 ## Discuss
 
-- [抛砖问答(PZWD)](https://pzwd.net/d/22)
+- [抛砖问答(PZWD)](https://pzwd.net/d/23)
 
 ## The Query Used
 
