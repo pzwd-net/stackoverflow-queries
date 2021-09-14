@@ -6,10 +6,11 @@ Queries used on [pzwd.net](https://pzwd.net/t/top-of-stackoverflow).
 
 - [Most popular StackOverflow tags in 2Q 2021](results/most-popular-stackoverflow-tags-in-2q-2021.md)
 - [Most popular StackOverflow tags in 1Q 2021](results/most-popular-stackoverflow-tags-in-1q-2021.md)
-- [Most popular StackOverflow tags in 4Q 2020](results/most-popular-stackoverflow-tags-in-4q-2020.md)
-- [Most popular StackOverflow tags in 3Q 2020](results/most-popular-stackoverflow-tags-in-3q-2020.md)
-- [Most popular StackOverflow tags in 2Q 2020](results/most-popular-stackoverflow-tags-in-2q-2020.md)
-- [Most popular StackOverflow tags in 1Q 2020](results/most-popular-stackoverflow-tags-in-1q-2020.md)
+- [Most popular StackOverflow tags in 2020](results/most-popular-stackoverflow-tags-in-2020.md)
+  - [Most popular StackOverflow tags in 4Q 2020](results/most-popular-stackoverflow-tags-in-4q-2020.md)
+  - [Most popular StackOverflow tags in 3Q 2020](results/most-popular-stackoverflow-tags-in-3q-2020.md)
+  - [Most popular StackOverflow tags in 2Q 2020](results/most-popular-stackoverflow-tags-in-2q-2020.md)
+  - [Most popular StackOverflow tags in 1Q 2020](results/most-popular-stackoverflow-tags-in-1q-2020.md)
 - [Most popular StackOverflow tags in 2019](results/most-popular-stackoverflow-tags-in-2019.md)
 - [Most popular StackOverflow tags in 2018](results/most-popular-stackoverflow-tags-in-2018.md)
 
@@ -35,4 +36,10 @@ npm run format-sql
 
 ```sh
 cat results/some.csv | node helpers/csv-to-markdown.js >> results/some.md
+```
+
+or
+
+```sh
+./helpers/csv2markdown.sh results/some.csv
 ```
