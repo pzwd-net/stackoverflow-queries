@@ -39,6 +39,7 @@ FROM
     WHERE
       Tags.Id = PostTags.TagId
       AND Posts.Id = PostTags.PostId
+      AND Posts.CreationDate < '2020-04-01'
     GROUP BY
       TagName
     HAVING
