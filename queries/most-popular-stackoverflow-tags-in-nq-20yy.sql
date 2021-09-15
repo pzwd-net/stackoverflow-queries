@@ -1,6 +1,6 @@
 -- Most popular StackOverflow tags in 1Q 2020
 SELECT
-  top 100 num.TagName AS Tag,
+  top 200 num.TagName AS Tag,
   ROW_NUMBER() OVER (
     ORDER BY
       rate.Rate desc
