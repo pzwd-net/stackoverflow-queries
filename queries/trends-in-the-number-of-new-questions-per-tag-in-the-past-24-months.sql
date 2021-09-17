@@ -7,7 +7,7 @@
 --  Keywords: Keywords: (ex: 'java','python','javascript' )
 --
 SELECT
-  dateadd(MONTH, datediff(MONTH, 0, p.CreationDate), 0) AS MONTH,
+  dateadd(MONTH, datediff(MONTH, 0, p.CreationDate), 0) AS TheMonth,
   TagName,
   COUNT(*) AS Questions
 FROM
